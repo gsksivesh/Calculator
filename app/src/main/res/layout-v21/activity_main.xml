@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDarkBlack"
+    tools:context="com.example.gsksivesh.calculator.MainActivity">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="5">
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset"
+            style="@style/AllButtons"/>
+
+        <Button
+            android:id="@+id/toggle_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toggle_sign"
+            style="@style/AllButtons"/>
+
+        <Button
+            android:id="@+id/modulus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulus"
+            style="@style/AllButtons"/>
+
+        <Button
+            android:id="@+id/division"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/division"
+            style="@style/AllButtons.Operation"/>
+
+        <Button
+            android:id="@+id/no_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seven"
+            style="@style/AllButtons"/>
+
+        <Button
+            android:id="@+id/no_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eight"
+            style="@style/AllButtons"/>
+
+        <Button
+            android:id="@+id/no_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nine"
+            style="@style/AllButtons"/>
+
+        <Button
+            android:id="@+id/multiply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multiply"
+            style="@style/AllButtons.Operation"/>
+
+        <Button
+            android:id="@+id/no_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/four"
+            style="@style/AllButtons"/>
+
+        <Button
+            android:id="@+id/no_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/five"
+            style="@style/AllButtons"/>
+
+        <Button
+            android:id="@+id/no_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/six"
+            style="@style/AllButtons"/>
+
+        <Button
+            android:id="@+id/subtraction"
+            style="@style/AllButtons.Operation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subtraction" />
+
+        <Button
+            android:id="@+id/no_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/one"
+            style="@style/AllButtons"/>
+
+        <Button
+            android:id="@+id/no_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/two"
+            style="@style/AllButtons"/>
+
+        <Button
+            android:id="@+id/no_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/three"
+            style="@style/AllButtons"/>
+
+        <Button
+            android:id="@+id/addition"
+            style="@style/AllButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/addition" />
+
+        <Button
+            android:id="@+id/no_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill"
+            android:text="@string/zero"
+            style="@style/AllButtons"/>
+
+        <Button
+            android:id="@+id/dot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dot"
+            style="@style/AllButtons"/>
+
+        <Button
+            android:id="@+id/equals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/equals"
+            style="@style/AllButtons"/>
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>
