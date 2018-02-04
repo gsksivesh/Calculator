@@ -38,11 +38,11 @@
                 android:text="@string/toggle_sign" />
 
             <Button
-                android:id="@+id/modulus"
+                android:id="@+id/percentage"
                 style="@style/AllButtons"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/modulus" />
+                android:text="@string/percentage" />
 
             <Button
                 android:id="@+id/division"

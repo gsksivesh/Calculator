@@ -12,7 +12,7 @@
     <string name="nine">9</string>
     <string name="reset">AC</string>
     <string name="toggle_sign">+/-</string>
-    <string name="modulus">%</string>
+    <string name="percentage">%</string>
     <string name="division">/</string>
     <string name="multiply">X</string>
     <string name="subtraction">-</string>
